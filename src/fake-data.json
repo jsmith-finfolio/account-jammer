@@ -1,0 +1,58 @@
+"name": "string",
+  "photoId": "string",
+  "roles": [
+    {
+      "id": "string",
+      "name": "string",
+      "roleclaims": [
+        {
+          "name": "string",
+          "value": "string"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "name": "string",
+      "value": "string"
+    }
+  ],
+  "folios": [
+    {
+      "id": "string",
+      "name": "string",
+      "readFlag": true,
+      "writeFlag": true,
+      "deleteFlag": true
+    }
+  ],
+  "managers": [
+    {
+      "id": "string",
+      "name": "string",
+      "readFlag": true,
+      "writeFlag": true,
+      "deleteFlag": true
+    }
+  ],
+  "portal": {
+    "id": "string",
+    "name": "string",
+    "photoId": "string",
+    "theme": "string",
+    "dashboards": [
+      {
+        "id": "string",
+        "hasSidebar": true,
+        "iconName": "string",
+        "displayOrder": 0
+      }
+    ],
+    "managerTypes": [
+      {
+        "id": "string"
+      }
+    ]
+  }
+}
